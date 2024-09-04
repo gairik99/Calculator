@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+:root {
+  --background-color: #737373;
+  --primary-color: #f59e0b;
+  --secondary-color: #fafafa;
+  --card-background: #171717;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.container {
+  padding: 1rem;
+  width: 15vw;
+  background-color: var(--card-background);
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  color: var(--secondary-color);
+}
+
+.date {
+  padding-bottom: 8px;
+}
+
+.fs-14px {
+  font-size: 14px;
+}
+
+.input {
+  max-width: 100%;
+  height: 8vh;
+  font-size: 1.5rem;
+  background-color: var(--card-background);
+  border: 1px solid var(--background-color);
+  color: var(--secondary-color);
+}
+
+.result {
+  width: 100%;
+  padding: 1rem 0;
+  margin-left: auto;
+  font-size: 2rem;
+  font-weight: bold;
+  height: 3rem;
+  color: var(--secondary-color);
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+  color: var(--text-primary-color);
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  padding: 1.5rem;
+  font-size: 1.25rem;
+  box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.1);
+}
+
+.btn-operator,
+.btn-result {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}

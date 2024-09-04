@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <span class="date fs-14px"></span>
+            <div class="options">
+                <span class="fs-14px material-icons-outlined">
+                    wifi
+                </span>
+                <span class="fs-14px material-icons-outlined">
+                    signal_cellular_alt
+                </span>
+                <span class="fs-14px material-icons-outlined">
+                    battery_std
+                </span>
+            </div>
+        </div>
+        <div>
+            <input class="input" type="text" />
+        </div>
+        <div class="result"></div>
+        <div class="btn-container">
+            <button class="button btn-clear" data-clear>C</button>
+            <button class="button" data-char>(</button>
+            <button class="button" data-char>)</button>
+            <button class="button btn-operator" data-operation>/</button>
+            <button class="button" data-number>7</button>
+            <button class="button" data-number>8</button>
+            <button class="button" data-number>9</button>
+            <button class="button btn-operator" data-operation>*</button>
+            <button class="button" data-number>4</button>
+            <button class="button" data-number>5</button>
+            <button class="button" data-number>6</button>
+            <button class="button btn-operator" data-operation>-</button>
+            <button class="button" data-number>1</button>
+            <button class="button" data-number>2</button>
+            <button class="button" data-number>3</button>
+            <button class="button btn-operator" data-operation>+</button>
+            <button class="button" data-number>0</button>
+            <button class="button" data-char>.</button>
+            <button class="button" data-del>del</button>
+            <button class="button btn-result" data-result>=</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
